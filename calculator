@@ -2,7 +2,7 @@ local userInput = nil
 local hellothisisme = true
 while hellothisisme == true do
     userInput = input()
-    if userInput == *exit then
+    if userInput == "*exit" then
        hellothisisme = false 
     end
     print(userInput)
