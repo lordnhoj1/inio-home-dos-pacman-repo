@@ -1,6 +1,7 @@
 local userInput = nil
 local h = true
-while wait(1) and h = true do
+while h = true do
+    wait(1)
     userInput = input()
     if userInput == *exit then
        h = false 
