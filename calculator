@@ -1,9 +1,9 @@
 local userInput = nil
-local h = true
-while h = true do
+local hellothisisme = true
+while hellothisisme = true do
     userInput = input()
     if userInput == *exit then
-       h = false 
+       hellothisisme = false 
     end
     print(userInput)
     loadstring("local answer = " .. userInput .. " print(answer)")()
