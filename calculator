@@ -1,6 +1,6 @@
 local userInput = nil
 local hellothisisme = true
-while hellothisisme = true do
+while hellothisisme == true do
     userInput = input()
     if userInput == *exit then
        hellothisisme = false 
