@@ -1,0 +1,9 @@
+local userInput = nil
+local drive = disk.init(1)
+print("EasyConfig Hardware Manager")
+wait(1)
+print("How many drive do you have connected?")
+userInput = input()
+drive.writeFile("config.sys", userInput)
+clear()
+print("Please reboot to apply changes.")
